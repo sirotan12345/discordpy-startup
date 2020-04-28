@@ -1,3 +1,5 @@
+# このファイルはgitignore指定されてます #
+
 import os
 
 # 実運用のHeroku上ではDISCORD_BOT_TOKENが定義されているため、それを使用する。
