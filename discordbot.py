@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-from include.buildenv import token
+from src.include.buildenv import token
 
 bot = commands.Bot(command_prefix='/')
 
