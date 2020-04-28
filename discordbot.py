@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-from src.include.buildenv import token
+from src.include.buildenv import *
 
 bot = commands.Bot(command_prefix='/')
 
@@ -16,6 +16,6 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pongjjjjjj')
+    await ctx.send('dsdsds')
 
-bot.run(token)
+bot.run(env_token)
